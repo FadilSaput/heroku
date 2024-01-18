@@ -1,0 +1,17 @@
+{
+  "name": "heroku-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram untuk menampilkan status dan log aplikasi Heroku",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@telegram/bot-api": "^5.0.0",
+    "heroku": "^8.15.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "prettier": "^2.6.2"
+  }
+}
